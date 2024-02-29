@@ -13,7 +13,7 @@ interface Car {
     };
     
     // Adding optionals
-    for(let [key, value]of optional) {
+    for(let [key, value] of optional) {
         car[key] = value;
     };
     
