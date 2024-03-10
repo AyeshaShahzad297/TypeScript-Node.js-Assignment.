@@ -3,4 +3,4 @@
 let personName2 = "bilal ahmed";
 console.log("lowercase:", personName2.toLowerCase());
 console.log("uppercase:", personName2.toUpperCase());
-console.log("lowercase:", personName2.replace(/\b\w/g, c => c.toUpperCase()));
+console.log("titlecase:", personName2.replace(/\b\w/g, c => c.toUpperCase()));
